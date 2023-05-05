@@ -1,0 +1,41 @@
+.hero{
+    margin-top: 14%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#google-logo{
+    position:relative;
+    border-top:50px solid #EA4335;
+    border-right:50px solid #4285F4;
+    border-bottom: 50px solid #34A853;
+    border-left: 50px solid #FBBC05;
+    border-radius: 50%;
+    background-color: #ffffff;
+     width:150px;
+    height:150px;
+    padding:0;
+    margin:10vh auto;
+}
+ #google-logo::before{
+    content: "";
+    z-index: 100;
+    position: absolute;
+    top:49%;
+    right:-39.5px;
+    transform:translateY(-42.5%);
+    width:100.5px;
+    height:50px;
+    background: #4285F4;
+} 
+ #google-logo::after{
+    content: "";
+    z-index:105; 
+    position:absolute;
+    border-top:50px solid transparent; 
+    border-right: 95px solid white; 
+    top:-40px;
+    right:-48px;
+    width: 90px;
+    height:41.9px;
+} 
